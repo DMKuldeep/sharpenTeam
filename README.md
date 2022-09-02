@@ -18,6 +18,20 @@ run
 npm start
 
 
+frontend hosted on Netlify 
+host link :- https://transcendent-paletas-b4d163.netlify.app/
+
+
+Backend Host On Heroku:-
+
+https://git.heroku.com/sharpenteam.git
+
+NOTE:-
+acces of backend link only owner:
+
+DO NOT WORRY IF NOT WORKING BACKEND LINK
+
+![image](https://user-images.githubusercontent.com/95953606/188210418-0719b3da-b48b-4f32-b544-b89f5434213a.png)
 
 
 
