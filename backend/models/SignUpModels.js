@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 
 const signUpTemplate = new mongoose.Schema({
-  fullName: {
+  firstName: {
     type: String,
     required: true,
   },
-  username: {
+  lastname: {
     type: String,
     required: true,
   },
@@ -13,14 +13,14 @@ const signUpTemplate = new mongoose.Schema({
     type: String,
     required: true,
   },
-  password: {
-    type: String,
-    required: true,
-  },
-  date: {
-    type: Date,
-    default: Date.now,
-  },
+  // password: {
+  //   type: String,
+  //   required: true,
+  // },
+  // date: {
+  //   type: Date,
+  //   default: Date.now,
+  // },
 });
 
 module.exports = mongoose.model("mytable", signUpTemplate);

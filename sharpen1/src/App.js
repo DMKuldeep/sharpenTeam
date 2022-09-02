@@ -1,15 +1,14 @@
 import React from "react";
-import "./App.css";
 import Button from "./Button";
-import Form from "./Form";
 import Tree from "./Tree";
+import App1 from "./App1";
 
 function App() {
   return (
     <>
-      <Form />
       <Button />
       <Tree />
+      <App1 />
     </>
   );
 }

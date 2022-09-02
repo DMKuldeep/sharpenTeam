@@ -3,14 +3,20 @@ import "./Button.css";
 
 const Button = () => {
   return (
-    <div className="card">
-      <button type="button">Page1</button>
+    <div id="tri" className="form-control form-group">
+      <button type="button" className="btn btn-danger btn-block">
+        Page1
+      </button>
       <br />
       <br />
-      <button type="button">+</button>
+      <button type="button" className="btn btn-danger btn-block">
+        +
+      </button>
       <br />
       <br />
-      <button type="button">Page2</button>
+      <button type="button" className="btn btn-danger btn-block">
+        Page2
+      </button>
     </div>
   );
 };
